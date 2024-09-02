@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Falcon Sumat</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Falcon <span>Sumat</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="#home">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#work-experience">experience</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#latest-projects">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#services">Services</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div
+          class="toggle-btn"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox" class="toggle-label">
+            <span class="toggle-ball"></span>
+          </label>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-container">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="./assets/srs.JPG" alt="falcon_sumat" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Sumat</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a <span class="typewriter-text"></span><label for="">|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            A passionate full-stack web developer. <br />
+            I have a deep love for coding and a strong desire to <br />
+            create impactful web solutions that make a difference.
+          </p>
+          <div class="social-links">
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <button>Hire me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-container">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        My <span>Skills</span>
+      </h1>
+      <div class="skill-details">
+        <div class="skills-list" data-aos="fade-up" data-aos-duration="1500">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+          <div class="skill">Node.js</div>
+          <div class="skill">Php</div>
+        </div>
+        <div class="skills-list" data-aos="fade-up" data-aos-duration="1500">
+          <div class="skill">MongoDB</div>
+          <div class="skill">MySQL</div>
+          <div class="skill">SQL</div>
+          <div class="skill">Git / Github</div>
+          <div class="skill">Tailwind / Mui</div>
+          <div class="skill">Basic Python</div>
+        </div>
+        <div class="skills-list" data-aos="fade-up" data-aos-duration="1500">
+          <div class="skill">Canva / PicsArt</div>
+          <div class="skill">Kinemaster / VN</div>
+          <div class="skill">SEO Writing</div>
+          <div class="skill">Social-Media content</div>
+          <div class="skill">Blog/Articals</div>
+          <div class="skill">WordPress</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-container">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        My <span>Services</span>
+      </h1>
+      <div class="services-list" data-aos="fade-up" data-aos-duration="1500">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-description">
+            Custom websites using modern technologies like HTML, CSS,
+            JavaScript, and React.
+          </p>
+        </div>
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-paint-brush"></i>
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+          <p class="service-description">
+            Creating user-friendly and visually appealing interfaces for web and
+            mobile applications.
+          </p>
+        </div>
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3 class="service-title">Database Management</h3>
+          <p class="service-description">
+            Efficient database design and management using MySQL, MongoDB, and
+            SQL.
+          </p>
+        </div>
+        <!-- Service Card 4 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-mobile"></i>
+          </div>
+          <h3 class="service-title">Mobile App Development</h3>
+          <p class="service-description">
+            Development of cross-platform mobile applications using React Native
+            and Flutter.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="work-experience-container">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        Work <span>Experience</span>
+      </h1>
+      <div class="experience-list" data-aos="fade-up" data-aos-duration="1500">
+        <!-- Experience 1 -->
+        <div class="experience-card">
+          <h3 class="experience-role">PHP WordPress Developer</h3>
+          <p class="experience-company">Offistore Innovative LLP</p>
+          <p class="experience-duration">Jan 2024 - Present</p>
+          <p class="experience-description">
+            Working on developing and maintaining WordPress websites, implementing custom PHP functionalities, and enhancing website performance.
+          </p>
+        </div>
+        <!-- Experience 2 -->
+        <div class="experience-card">
+          <h3 class="experience-role">Php & Mern Developer</h3>
+          <p class="experience-company">Freelance</p>
+          <p class="experience-duration">Aug 2024 - Present</p>
+          <p class="experience-description">
+            Working on developing and maintaining WordPress websites, implementing custom PHP functionalities, and enhancing website performance.
+          </p>
+        </div>
+        <!-- Experience 3 -->
+        <div class="experience-card">
+          <h3 class="experience-role">Full-Stack Developer (Intern)</h3>
+          <p class="experience-company">Bharat Intern</p>
+          <p class="experience-duration">Jul 2023 - Sep 2023</p>
+          <p class="experience-description">
+            Developed and maintained web applications using MERN stack. Collaborated with the design team to create user-friendly UI/UX.
+          </p>
+        </div>
+        <!-- Experience 4 -->
+        <div class="experience-card">
+          <h3 class="experience-role">Front-End Developer</h3>
+          <p class="experience-company">LearX</p>
+          <p class="experience-duration">Jan 2023 - Mar 2023</p>
+          <p class="experience-description">
+            Built responsive front-end interfaces using HTML, CSS, JavaScript, and React. Worked closely with clients to understand their requirements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Latest Projects Section -->
+    <section id="latest-projects" class="projects-container">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        Latest <span>Projects</span>
+      </h1>
+      <div class="projects-list" data-aos="fade-up" data-aos-duration="1500">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="./assets/ls_img/we_1_food.png" alt="Food Bar" class="project-image">
+          <h3 class="project-title">Food Bar</h3>
+          <p class="project-description">
+            A food delivery system built using the MERN stack.
+          </p>
+          <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Get Code</button>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="./assets//ls_img/we_2_portfolio.png" alt="Portfolio" class="project-image">
+          <h3 class="project-title">Book Portfolio</h3>
+          <p class="project-description">
+            A professional portfolio website built with HTML, CSS, JavaScript, and React.
+          </p>
+          <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Get Code</button>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="./assets/ls_img/we_3_rocken_travel.jpeg" alt="Rocket Travels" class="project-image">
+          <h3 class="project-title">Rocket Travels</h3>
+          <p class="project-description">
+            A travel management system built using Python and Django.
+          </p>
+          <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Get Code</button>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card">
+          <img src="./assets//ls_img/we_4_tech_store.png" alt="Tech Store" class="project-image">
+          <h3 class="project-title">Tech Store</h3>
+          <p class="project-description">
+            An e-commerce platform built using PHP, MySQL, and SQL.
+          </p>
+          <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Get Code</button>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card">
+          <img src="./assets//ls_img/we_5_movie_store.png" alt="Tech Store" class="project-image">
+          <h3 class="project-title">Movie Store</h3>
+          <p class="project-description">
+            An e-commerce platform built using PHP, MySQL, and SQL.
+          </p>
+          <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Get Code</button>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="project-card">
+          <img src="./assets/ls_img/we_6_aayojan.jpeg" alt="Aayojan" class="project-image">
+          <h3 class="project-title">Aayojan</h3>
+          <p class="project-description">
+            A meet & event planning system for organizations built using React, Node, Express, and MongoDB.
+          </p>
+          <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Get Code</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-container">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        About <span>Me</span>
+      </h1>
+      <div class="about-content">
+        <!-- Left Side: Contact Information -->
+        <div class="contact-info" data-aos="fade-left" data-aos-duration="1500">
+          <div class="icon-circle">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="para">
+            <p class="intro">
+              Hello! I'm <span class="highlight">Sumat</span>, a passionate
+              <span class="highlight">full-stack web developer</span> from
+              Morena, currently based in Indore. I have a deep love for coding
+              and a strong desire to create impactful web solutions that make a
+              difference.
+            </p>
+            <p class="intro">
+              After completing my bachelor's degree in 2023 from
+              <span class="highlight">IGEC College, Sagar</span>, I started my
+              journey as a web developer. Over the years, I've gained expertise
+              in technologies like <span class="highlight">HTML</span>,
+              <span class="highlight">CSS</span>,
+              <span class="highlight">JavaScript</span>,
+              <span class="highlight">React</span>,
+              <span class="highlight">Node.js</span>, and
+              <span class="highlight">MongoDB</span>. My experience spans across
+              developing e-commerce platforms, travel management systems, and
+              even event planning tools, each project adding a new layer to my
+              skills.
+            </p>
+            <p class="intro">
+              Currently, I'm working as a
+              <span class="highlight">PHP WordPress & Mern developer</span> at
+              <span class="highlight">Offistore Innovative LLP</span>, where I
+              continue to hone my skills and take on challenging projects. My
+              work isn't just about writing code; it's about crafting
+              experiences that users find intuitive, engaging, and valuable.
+            </p>
+            <p class="intro">
+              When I'm not coding, I enjoy exploring new technologies,
+              contributing to open-source projects, and sharing my knowledge
+              with the developer community.
+            </p>
+            <p class="cta">
+              <strong
+                >If you're interested in working together or just want to
+                connect, feel free to</strong
+              >
+              <span class="highlight">
+                <br />
+                reach out</span
+              >!
+            </p>
+          </div>
+          <div class="contact-details">
+            <p><strong>Email:</strong> srmorena1802@gmail.com</p>
+            <p><strong>Phone:</strong> +91 8982443551</p>
+            <p><strong>Address:</strong> 78 Scheme, Vijay Nagar Indore</p>
+          </div>
+        </div>
+        <!-- Right Side: Image -->
+        <div class="image-card" data-aos="fade-right" data-aos-duration="1500">
+          <img src="./assets/ssr.png" alt="About Me" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-container custom-contact">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        Contact <span>Me</span>
+      </h1>
+      <form data-aos="fade-up" data-aos-duration="1500">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>Falcon <span>Sumat</span></h2>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="Github"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="#" aria-label="Twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; 2024 Falcon Sumat. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+
