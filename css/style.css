@@ -159,7 +159,7 @@ nav {
 
 #home .image img {
   width: 100%;
-  max-width: 250px;
+  max-width: 450px;
   border-radius: 20%;
   box-shadow: 0 0 100px #6e6b6b;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -226,6 +226,12 @@ nav {
   box-shadow: 0 0 5px #f9a825;
   /* Change box-shadow on hover */
 }
+
+
+
+
+
+
 
 /* Skills Section */
 #skills {
@@ -545,14 +551,18 @@ nav {
   flex: 1;
   max-width: 50%;
   padding: 4rem;
+  margin-left: 8rem;
   /* background-color: yellow; */
 }
 
 .image-card img {
-  width: 100%;
+  width: 25rem;
   border-radius: 10px;
 }
 
+/* Contact Section */
+/* Contact Section */
+/* Contact Section */
 /* Contact Section */
 #contact {
   width: 100%;
@@ -696,10 +706,20 @@ footer {
     width: 100%;
     /* background-color: blue; */
   }
+  
 
   #home .image {
     width: 100%;
     /* background-color: rgb(26, 255, 0); */
+  }
+
+  
+  #home .image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20%;
+    box-shadow: 0 0 100px #6e6b6b;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   #home .main-container {
@@ -839,6 +859,26 @@ footer {
 
   .about-container .about-content .contact-info .contact-details {
     width: 20rem;
+  }
+
+  .about-container .about-content{
+    width: 100%;
+    /* background-color: rgb(0, 255, 34); */
+  }
+  .about-container .about-content  .image-card {
+    width: 100%;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-card img {
+    width: 15rem;
+    max-width: 600px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
   }
 
 
